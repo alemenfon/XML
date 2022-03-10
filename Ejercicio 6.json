@@ -1,0 +1,38 @@
+{
+    "books": {
+      "book": [
+        {
+          "lang": "En",
+          "tittle": "Every Italian",
+          "author": "Giada De Lauretis",
+          "year": 2005,
+          "price": 30,
+          "category": "Cooking"
+        },
+        {
+          "lang": "En",
+          "tittle": "Harry Potter",
+          "author": "J K. Rowling",
+          "year": 2005,
+          "price": 29.99,
+          "category": "Children"
+        },
+        {
+          "lang": "En",
+          "tittle": "XQuery kick Start",
+          "author": "James McGovern",
+          "year": 2003,
+          "price": 49.99,
+          "category": "Web"
+        },
+        {
+          "lang": "En",
+          "tittle": "Learning xml",
+          "author": "Erik T. Ray",
+          "year": 2003,
+          "price": 39.99,
+          "category": "Web"
+        }
+      ]
+    }
+  }

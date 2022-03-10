@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<equipos>
+<equipoLocal>Real Madrid</equipoLocal>
+<equipoVisitante>Barcelona</equipoVisitante>
+<golesLocal goles=3></golesLocal>
+<golesVisitante goles=0></golesVisitante>
+<equipoLocal>Sevilla</equipoLocal>
+<equipoVisitante>Betis</equipoVisitante>
+<golesLocal goles=1></golesLocal>
+<golesVisitante goles=1></golesVisitante>
+<equipoLocal>Granada</equipoLocal>
+<equipoVisitante>Real Sociedad</equipoVisitante>
+<golesLocal goles=0></golesLocal>
+<golesVisitante goles=2></golesVisitante>
+</equipos>

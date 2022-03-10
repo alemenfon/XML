@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<books>
+<book>
+<lang>En</lang>
+<tittle>Every Italian</tittle>
+<author>Giada De Lauretis</author>
+<year>2005</year>
+<price>30.00</price>
+<category>Cooking</category>
+</book>
+<book>
+<lang>En</lang>
+<tittle>Harry Potter</tittle>
+<author>J K. Rowling </author>
+<year>2005</year>
+<price>29.99</price>
+<category>Children</category>
+</book>
+<book>
+<lang>En</lang>
+<tittle>XQuery kick Start</tittle>
+<author>James McGovern</author>
+<year>2003</year>
+<price>49.99</price>
+<category>Web</category>
+</book>
+<book>
+<lang>En</lang>
+<tittle>Learning xml</tittle>
+<author>Erik T. Ray</author>
+<year>2003</year>
+<price>39.99</price>
+<category>Web</category>
+</book>
+
+
+
+
+
+
+
+
+</books>
