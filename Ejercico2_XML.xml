@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<DatosSituacionCovid fecha="12 abril 11:30h">
+    <CCAA region="Andalucia">
+        <totalCasosConfirmados></totalCasosConfirmados>
+        <pacientesUCI></pacientesUCI>
+        <fallecidos></fallecidos>
+        <curados></curados>
+    </CCAA>
+
+    <CCAA region="Aragón">
+        <totalCasosConfirmados></totalCasosConfirmados>
+        <pacientesUCI></pacientesUCI>
+        <fallecidos></fallecidos>
+        <curados></curados>
+    </CCAA>
+
+    <CCAA region="Asturias">
+        <totalCasosConfirmados></totalCasosConfirmados>
+        <pacientesUCI></pacientesUCI>
+        <fallecidos></fallecidos>
+        <curados></curados>
+    </CCAA>
+
+    <CCAA region="Baleares">
+        <totalCasosConfirmados></totalCasosConfirmados>
+        <pacientesUCI></pacientesUCI>
+        <fallecidos></fallecidos>
+        <curados></curados>
+    </CCAA>
+
+    <CCAA region="Canarias">
+        <totalCasosConfirmados></totalCasosConfirmados>
+        <pacientesUCI></pacientesUCI>
+        <fallecidos></fallecidos>
+        <curados></curados>
+    </CCAA>
+
+    <CCAA region="Cantabria">
+        <totalCasosConfirmados></totalCasosConfirmados>
+        <pacientesUCI></pacientesUCI>
+        <fallecidos></fallecidos>
+        <curados></curados>
+    </CCAA>
+
+    <CCAA region="Castilla-La Mancha">
+        <totalCasosConfirmados></totalCasosConfirmados>
+        <pacientesUCI></pacientesUCI>
+        <fallecidos></fallecidos>
+        <curados></curados>
+    </CCAA>
+
+    <CCAA region="Castilla- y León">
+        <totalCasosConfirmados></totalCasosConfirmados>
+        <pacientesUCI></pacientesUCI>
+        <fallecidos></fallecidos>
+        <curados></curados>
+    </CCAA>
+
+    <CCAA region="Cataluña">
+        <totalCasosConfirmados></totalCasosConfirmados>
+        <pacientesUCI></pacientesUCI>
+        <fallecidos></fallecidos>
+        <curados></curados>
+    </CCAA>
+
+    <CCAA region="Ceuta">
+        <totalCasosConfirmados></totalCasosConfirmados>
+        <pacientesUCI></pacientesUCI>
+        <fallecidos></fallecidos>
+        <curados></curados>
+    </CCAA>
+
+    <CCAA region="C.Valenciana">
+        <totalCasosConfirmados></totalCasosConfirmados>
+        <pacientesUCI></pacientesUCI>
+        <fallecidos></fallecidos>
+        <curados></curados>
+    </CCAA>
+
+    <CCAA region="Extremadura">
+        <totalCasosConfirmados></totalCasosConfirmados>
+        <pacientesUCI></pacientesUCI>
+        <fallecidos></fallecidos>
+        <curados></curados>
+    </CCAA>
+
+    <CCAA region="Galicia">
+        <totalCasosConfirmados></totalCasosConfirmados>
+        <pacientesUCI></pacientesUCI>
+        <fallecidos></fallecidos>
+        <curados></curados>
+    </CCAA>
+
+    <CCAA region="Madrid">
+        <totalCasosConfirmados></totalCasosConfirmados>
+        <pacientesUCI></pacientesUCI>
+        <fallecidos></fallecidos>
+        <curados></curados>
+    </CCAA>
+
+    <CCAA region="Melilla">
+        <totalCasosConfirmados></totalCasosConfirmados>
+        <pacientesUCI></pacientesUCI>
+        <fallecidos></fallecidos>
+        <curados></curados>
+    </CCAA>
+
+    <CCAA region="Melilla">
+        <totalCasosConfirmados></totalCasosConfirmados>
+        <pacientesUCI></pacientesUCI>
+        <fallecidos></fallecidos>
+        <curados></curados>
+    </CCAA>
+
+    <CCAA region="Murcia">
+        <totalCasosConfirmados></totalCasosConfirmados>
+        <pacientesUCI></pacientesUCI>
+        <fallecidos></fallecidos>
+        <curados></curados>
+    </CCAA>
+
+    <CCAA region="Navarra">
+        <totalCasosConfirmados></totalCasosConfirmados>
+        <pacientesUCI></pacientesUCI>
+        <fallecidos></fallecidos>
+        <curados></curados>
+    </CCAA>
+
+    <CCAA region="País Vasco">
+        <totalCasosConfirmados></totalCasosConfirmados>
+        <pacientesUCI></pacientesUCI>
+        <fallecidos></fallecidos>
+        <curados></curados>
+    </CCAA>
+
+    
+    <CCAA region="La Rioja">
+        <totalCasosConfirmados></totalCasosConfirmados>
+        <pacientesUCI></pacientesUCI>
+        <fallecidos></fallecidos>
+        <curados></curados>
+    </CCAA>
+
+    <CCAA region="España">
+        <totalCasosConfirmados></totalCasosConfirmados>
+        <pacientesUCI></pacientesUCI>
+        <fallecidos></fallecidos>
+        <curados></curados>
+    </CCAA>
+ 
+ 
+ 
+ 
+
+
+
+
+</DatosSituacionCovid>

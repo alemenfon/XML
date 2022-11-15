@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema-instance">
+    <xs:element name="heladeria">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="helado" type="xs:string"/>
+                    <xs:complexType>
+                        <xs:attribute name="fabricacion" type="xs:string" use="required"></xs:attribute>
+                        <xs:choice>
+                            <xs:element name="Chocolate" type="xs:string" use="required">
+                                <xs:simpleType>
+                                    <xs:restriction base="xs:string">
+                                        <xs:minInclusive value="0"></xs:minInclusive>
+                                        <xs:maxInclusive value="1000"></xs:maxInclusive>
+                                    </xs:restriction>
+                                </xs:simpleType>
+                            </xs:element>
+                            <xs:element name="fresa" type="xs:string" use="required">
+                                <xs:simpleType>
+                                    <xs:restriction base="xs:string">
+                                        <xs:minInclusive value="0"></xs:minInclusive>
+                                        <xs:maxInclusive value="1000"></xs:maxInclusive>
+                                    </xs:restriction>
+                                </xs:simpleType>
+                            </xs:element>
+                        </xs:choice>
+                    </xs:complexType>
+                    <xs:element name="helado" type="xs:string">
+                        <xs:complexType>
+                        <xs:attribute name="fabricacion" type="xs:string" use="required"></xs:attribute>
+                        <xs:choice>
+                            <xs:element name="vainilla" type="xs:string" use="required">
+                                <xs:simpleType>
+                                    <xs:restriction base="xs:string">
+                                        <xs:minInclusive value="0"></xs:minInclusive>
+                                        <xs:maxInclusive value="1000"></xs:maxInclusive>
+                                    </xs:restriction>
+                                </xs:simpleType>
+                            </xs:element>
+                            <xs:element name="Turrón" type="xs:string" use="required">
+                                <xs:simpleType>
+                                    <xs:restriction base="xs:string">
+                                        <xs:minInclusive value="0"></xs:minInclusive>
+                                        <xs:maxInclusive value="1000"></xs:maxInclusive>
+                                    </xs:restriction>
+                                </xs:simpleType>
+                            </xs:element>
+                            <xs:element name="Nata" type="xs:string" use="required">
+                                <xs:simpleType>
+                                    <xs:restriction base="xs:string">
+                                        <xs:minInclusive value="0"></xs:minInclusive>
+                                        <xs:maxInclusive value="1000"></xs:maxInclusive>
+                                    </xs:restriction>
+                                </xs:simpleType>
+                            </xs:element>
+                        </xs:choice>
+                    </xs:complexType>
+                </xs:element>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+</xs:schema>

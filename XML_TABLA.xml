@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<datosTicket código="123">
+    <fecha>
+        <dia>16</dia>
+        <mes>5</mes>
+        <año>2020</año>
+    </fecha>
+    <hora>15:30</hora>
+
+    <datosCompra>
+        <articulo>
+            <nombre>freno</nombre>
+            <cantidad>1</cantidad>
+            <precioTotal>
+                <precioSinIVA>20</precioSinIVA>
+                <cantidadIVA>16%</cantidadIVA>
+                <PVP>22</PVP>
+            </precioTotal>
+        </articulo>
+    </datosCompra>
+    
+   
+
+    <formaPago tipo="Tarjeta">
+        <numTarjeta>************1234</numTarjeta>
+        <nombreCliente>Alejandra</nombreCliente>
+    </formaPago>
+    <formaPago tipo="Efectivo">
+        <numTarjeta>************1325</numTarjeta>
+        <nombre>Manuel</nombre>
+    </formaPago>
+
+    <datosComercio>
+        <nombre>Bicicleteria</nombre>
+        <direccion>Av. María Auxiliadora</direccion>
+        <CIF>41</CIF>
+        <telefono>662002485</telefono>
+    </datosComercio>
+
+</datosTicket>

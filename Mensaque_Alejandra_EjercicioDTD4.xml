@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE facturas [
+<!ELEMENT facturas (factura*)>
+<!ELEMENT factura (datosCliente,datosFactura)>
+<!ELEMENT datosCliente (nombre, primerApellido, segundoApellido, DNI, telefono+)>
+<!ATTLIST datosCliente id CDATA #REQUIRED>
+<!ELEMENT nombre (#PCDATA)>
+<!ELEMENT primerApellido (#PCDATA)>
+<!ELEMENT segundoApellido (#PCDATA)>
+<!ELEMENT DNI (#PCDATA)>
+<!ELEMENT telefono (#PCDATA)>
+<!ELEMENT datosFactura (resguardo+, (alquilerPelicula | compraPelicula | (alquilerPelicula,compraPelicula)))>
+<!ELEMENT resguardo (formaPago, importeTotal)>
+<!ELEMENT formaPago (#PCDATA)>
+<!ELEMENT importeTotal (#PCDATA)>
+<!ELEMENT alquilerPelicula (peliculas)>
+<!ATTLIST alquilerPelicula fechaDevolucion CDATA "2022">
+<!ELEMENT peliculas (pelicula+)>
+<!ELEMENT pelicula (titulo, genero, duracion, reparto)>
+<!ATTLIST pelicula idPelicula CDATA #REQUIRED>
+<!ATTLIST pelicula valoracion CDATA "">
+<!ATTLIST pelicula caratula CDATA #IMPLIED>
+<!ELEMENT titulo (#PCDATA)>
+<!ELEMENT genero (#PCDATA)>
+<!ELEMENT duracion (#PCDATA)>
+<!ELEMENT reparto (actor, actor, actor)>
+<!ELEMENT actor (nombre, primerApellido, segundoApellido)>
+<!ELEMENT compraPelicula (dvds | cintasVideo | (dvds,cintasVideo))>
+<!ELEMENT dvds (dvd+)>
+<!ELEMENT dvd (titulo, fechaSalida, extras?)>
+<!ELEMENT extras (#PCDATA)>
+<!ELEMENT fechaSalida (#PCDATA)>
+<!ELEMENT cintasVideo (cinta+)>
+<!ELEMENT cinta (titulo, formato, rebobinado?)>
+<!ELEMENT formato (#PCDATA)>
+<!ELEMENT rebobinado EMPTY>
+
+]>
+
+<facturas>
+    <factura>
+        <datosCliente id="2580G">
+            <nombre>Alejandra</nombre>
+            <primerApellido>Mensaque</primerApellido>
+            <segundoApellido>Fonteseca</segundoApellido>
+            <DNI>47392587G</DNI>
+            <telefono>621085423</telefono>
+        </datosCliente>
+        <datosFactura>
+            <resguardo>
+                <formaPago>Efectivo</formaPago>
+                <importeTotal>10</importeTotal>
+            </resguardo>
+            <alquilerPelicula fechaDevolucion="2022">
+                <peliculas>
+                    <pelicula idPelicula="12345D" valoracion="6.5" caratula="c0360.jpg">
+                        <titulo>Hook (El capitán Garfio)</titulo>
+                        <genero>Fantástico</genero>
+                        <duracion>137 min</duracion>
+                        <reparto>
+                            <actor>
+                                <nombre>Robin</nombre>
+                                <primerApellido>Williams</primerApellido>
+                                <segundoApellido>McLaurin </segundoApellido>
+                            </actor>
+                            <actor>
+                                <nombre> Dustin</nombre>
+                                <primerApellido>Lee</primerApellido>
+                                <segundoApellido>Hoffman</segundoApellido>
+                            </actor>
+                            <actor>
+                                <nombre>Julia</nombre>
+                                <primerApellido>Roberts</primerApellido>
+                                <segundoApellido>Fiona</segundoApellido>
+                            </actor>
+                        </reparto>
+                    </pelicula>
+                    <pelicula idPelicula="15896F" valoracion="7.9" caratula="c0437.jpg">
+                        <titulo>Big Fish</titulo>
+                        <genero>Fantástico</genero>
+                        <duracion>26 min</duracion>
+                        <reparto>
+                            <actor>
+                                <nombre>Ewan</nombre>
+                                <primerApellido>McGregor</primerApellido>
+                                <segundoApellido>Gordon</segundoApellido>
+                            </actor>
+                            <actor>
+                                <nombre>Helena</nombre>
+                                <primerApellido>Bonham</primerApellido>
+                                <segundoApellido>Carter</segundoApellido>
+                            </actor>
+                            <actor>
+                                <nombre>Albert</nombre>
+                                <primerApellido>Finney</primerApellido>
+                                <segundoApellido></segundoApellido>
+                            </actor>
+                        </reparto>
+                    </pelicula>
+                    <pelicula idPelicula="78952A" valoracion="7.5" caratula="c1201.jpg">
+                        <titulo>La lengua de las mariposas</titulo>
+                        <genero>Drama</genero>
+                        <duracion>97 min</duracion>
+                        <reparto>
+                            <actor>
+                                 <nombre>Fernando</nombre>
+                                <primerApellido>Fernán</primerApellido>
+                                 <segundoApellido>Gómez</segundoApellido>
+                            </actor>
+                             <actor>
+                                <nombre>Manuel</nombre>
+                                <primerApellido>Lozano</primerApellido>
+                                <segundoApellido>Obispo</segundoApellido>
+                             </actor>
+                             <actor>
+                                 <nombre>Alexis</nombre>
+                                <primerApellido>De los Santos</primerApellido>
+                                <segundoApellido></segundoApellido>
+                            </actor>
+                        </reparto>
+                    </pelicula>
+                </peliculas>
+            </alquilerPelicula>
+            <compraPelicula>
+                <dvds>
+                    <dvd>
+                        <titulo>El espíritu de la colmena</titulo>
+                        <fechaSalida>1973</fechaSalida>
+                        <extras></extras>
+                    </dvd>
+                </dvds>
+                <cintasVideo>
+                    <cinta>
+                        <titulo>La princesa Mononoke </titulo>
+                        <formato>vhs</formato>
+                        <rebobinado></rebobinado>
+                    </cinta>
+                </cintasVideo>
+            </compraPelicula>
+        </datosFactura>
+    </factura>
+</facturas>
